@@ -1,6 +1,7 @@
 #jasmin ericka celebre
 #problem 3 the vigenere cipher
 
+import pyfiglet 
 #ask user for message and key then save it
 message = input("Please type the message(all uppercase letters, no spaces): ").strip()
 key = input("Please type the key (all uppercase letters): ")
@@ -19,8 +20,8 @@ else:
 # print the output
     print("=*"*80)
     print("MESSAGE:")
-    print(message)
+    print(pyfiglet.figlet_format(message, font="smkeyboard", justify="center"))
     print("KEY:")
-    print(key)
+    print(pyfiglet.figlet_format(key, font="smkeyboard", justify="center"))
     print("Vigenere Ciphertext:")
     print("=*"*80)
