@@ -1,0 +1,3 @@
+THE VIGENERE CIPHER
+
+This Python code is used to encode and decode messages using a Vigenere cipher. It takes two user inputs, the message to be encoded or decoded, and the key for the cipher. The Vigenere cipher is a method of encryption that uses a keyword to create a keyed alphabet. This alphabet is used to encrypt the message by shifting each letter of the message by its corresponding position in the keyed alphabet. This code will allow the user to input a message and a keyword, and then it will encrypt or decrypt the message accordingly. It is an easy and secure way to protect sensitive information.
