@@ -12,5 +12,7 @@ else:
 # convert the plaintext to numbers
     num_message = [ord(char) - ord('A') for char in message]
 # encrypt the message
+    ciphertext = ''
+    for i in range(len(message)):
 #addition and modulus computation
 # print the output
