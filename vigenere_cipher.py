@@ -10,6 +10,7 @@ else:
 # convert the key to numbers
     num_key = [ord(char) - ord('A') for char in key]
 # convert the plaintext to numbers
+    num_message = [ord(char) - ord('A') for char in message]
 # encrypt the message
 #addition and modulus computation
 # print the output
