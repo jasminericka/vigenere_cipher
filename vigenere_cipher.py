@@ -15,4 +15,5 @@ else:
     ciphertext = ''
     for i in range(len(message)):
 #addition and modulus computation
+        ciphertext += chr((num_message[i] + num_key[i % len(key)]) % 26 + ord('A'))
 # print the output
