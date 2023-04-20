@@ -17,3 +17,10 @@ else:
 #addition and modulus computation
         ciphertext += chr((num_message[i] + num_key[i % len(key)]) % 26 + ord('A'))
 # print the output
+    print("=*"*80)
+    print("MESSAGE:")
+    print(message)
+    print("KEY:")
+    print(key)
+    print("Vigenere Ciphertext:")
+    print("=*"*80)
